@@ -1,0 +1,2 @@
+Note: S3 data events were reduced on 2026-03-14 10:48Z in prod-core from broad bucket coverage to a narrower prefix allowlist.
+Organization trail still captured management events, but some object-level visibility after that point is incomplete.

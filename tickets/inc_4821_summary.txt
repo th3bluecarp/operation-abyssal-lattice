@@ -1,0 +1,7 @@
+INC-4821 opened 2026-03-14 11:27Z
+Reporter: corp-dev
+Symptoms:
+- Meridian board materials unexpectedly accessed
+- External Box link appeared without request
+- Release engineering noted strange hotfix ref approval earlier in the day
+- Security also received unrelated research CPU spike alert

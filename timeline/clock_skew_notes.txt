@@ -1,0 +1,6 @@
+Known time formats:
+- Windows browser and macOS unified logs include -0700 local offset
+- Most cloud and SaaS logs are UTC
+- Zeek absolute timestamps are not normalized in this dataset
+- RSCH-JUP-03 local host time may drift by ~92 seconds
+- Some Box and proxy sequencing may reflect audit lag or service semantics

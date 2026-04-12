@@ -1,0 +1,2 @@
+root      2311 97.3  0.3 928112 33120 ?        Sl   12:40   7:11 /tmp/xmrig
+jupyter   1990  1.4  2.1 1902812 188120 ?      Ssl  12:01   0:25 /usr/bin/python3 /usr/local/bin/jupyter-lab --ip=0.0.0.0 --NotebookApp.token=''

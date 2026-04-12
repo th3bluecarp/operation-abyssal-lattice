@@ -1,0 +1,6 @@
+CreationTime,UserId,Operation,Workload,ClientIP,UserAgent,ObjectId,Parameters
+2026-03-14T08:21:05Z,e.park@halcyonmeridian.com,Consent to application,AzureActiveDirectory,45.83.64.19,Chrome/134,Docs Sync Service,"Files.Read.All;Mail.Read;offline_access"
+2026-03-14T08:34:11Z,e.park@halcyonmeridian.com,FileAccessed,SharePoint,45.83.64.19,Chrome/134,/CorpDev/Board/Meridian/meridian_board_pack_v18.pptx,
+2026-03-14T08:34:48Z,e.park@halcyonmeridian.com,FileDownloaded,SharePoint,45.83.64.19,Chrome/134,/CorpDev/Board/Meridian/valuation_model_v9.xlsx,
+2026-03-14T08:41:22Z,e.park@halcyonmeridian.com,MailItemsAccessed,Exchange,45.83.64.19,GraphSDK,mailbox:e.park@halcyonmeridian.com,"folder=Inbox"
+2026-03-14T08:44:15Z,e.park@halcyonmeridian.com,FileSyncDownloadedFull,OneDrive,45.83.64.19,GraphSDK,/CorpDev/Board/Meridian/term_sheet_draft.docx,

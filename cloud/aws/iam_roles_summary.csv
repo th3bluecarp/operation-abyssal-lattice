@@ -1,0 +1,3 @@
+Role,Trust,NotablePermissions
+gha-release-role,token.actions.githubusercontent.com,ssm:GetParameter;eks:DescribeCluster;ecr:GetAuthorizationToken
+eks-prod-exporter,oidc.eks.us-west-2.amazonaws.com/id/ABCD1234,s3:GetObject;s3:PutObject;kms:Decrypt

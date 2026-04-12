@@ -1,0 +1,4 @@
+UtcTime,Computer,User,EventID,Image,CommandLine,ParentImage,DestinationIp,DestinationPort,Hashes
+2026-03-14 08:13:58,FIN-WS22,e.park,1,C:\Program Files\Google\Chrome\Application\chrome.exe,"chrome.exe https://review-board-portal.com/session/84e2",C:\Windows\explorer.exe,,,SHA256=77009e7fea4910b7cc067dba3daf02d8722756a959f373cf04d0e8f372894cfb
+2026-03-14 08:14:04,FIN-WS22,e.park,3,C:\Program Files\Google\Chrome\Application\chrome.exe,,C:\Windows\explorer.exe,198.51.100.24,443,SHA256=f9c010a5cfab5da7b6d50f4f4a58708ab67bd2e74bfe5ddb21841cadd5204310
+2026-03-14 09:40:18,FIN-WS22,m.sato,1,C:\Program Files\7-Zip\7z.exe,"7z a C:\Temp\board_packets.7z C:\BoardPrep\*.pptx C:\BoardPrep\*.xlsx",C:\Windows\explorer.exe,,,SHA256=e0fc9ee7e4bc539ac75bfefdf8b3caa44143b174b430962499e647a3672dfcc1

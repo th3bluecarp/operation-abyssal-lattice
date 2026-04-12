@@ -1,0 +1,2 @@
+2026-03-14T10:59:11Z Decrypt by gha-release-role on key alias/prod-export-secrets
+No observed Sign operation against release signing KMS key in provided evidence.

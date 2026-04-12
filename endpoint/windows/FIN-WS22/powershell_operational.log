@@ -1,0 +1,2 @@
+2026-03-14 09:41:02 User=m.sato Host=FIN-WS22 EngineVersion=5.1
+CommandInvocation(Compress-Archive): Compress-Archive -Path C:\BoardPrep\* -DestinationPath C:\Temp\board_packets.zip

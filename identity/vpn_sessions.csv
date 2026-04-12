@@ -1,0 +1,4 @@
+timestamp,user,src_ip,device,action,result
+2026-03-14T08:10:01Z,e.park@halcyonmeridian.com,10.24.18.41,FIN-WS22,connect,success
+2026-03-14T10:05:54Z,r.kapoor@halcyonmeridian.com,10.88.44.17,MAC-DEV-17,connect,success
+2026-03-14T12:34:48Z,j.mercer@contractor.example,203.0.113.99,RSCH-JUP-03,connect,success

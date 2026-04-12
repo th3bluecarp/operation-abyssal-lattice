@@ -1,0 +1,12 @@
+2026-03-14T08:13:58Z 10.24.18.41 e.park@halcyonmeridian.com GET https://review-board-portal.com/session/84e2 200 text/html 11234 Mozilla/5.0
+2026-03-14T08:14:02Z 10.24.18.41 e.park@halcyonmeridian.com GET https://review-board-portal.com/assets/login.js 200 application/javascript 44218 Mozilla/5.0
+2026-03-14T08:14:05Z 10.24.18.41 e.park@halcyonmeridian.com POST https://review-board-portal.com/api/auth 200 application/json 1834 Mozilla/5.0
+2026-03-14T08:20:13Z 45.83.64.19 - GET https://portal.office.com/ 200 text/html 8301 Mozilla/5.0
+2026-03-14T08:41:12Z 45.83.64.19 - POST https://graph.microsoft.com/v1.0/me/messages 200 application/json 3184 GraphSDK/5.4
+2026-03-14T10:06:09Z 10.88.44.17 r.kapoor@halcyonmeridian.com GET https://registry.npmjs.org/build-linker 200 application/json 884 npm/10.9.0 node/v22.8.0
+2026-03-14T10:06:11Z 10.88.44.17 r.kapoor@halcyonmeridian.com GET https://cdn-build-linker.com/install.sh 200 text/plain 442 bash/5.2
+2026-03-14T10:06:15Z 10.88.44.17 r.kapoor@halcyonmeridian.com CONNECT https://api.github.com/ 200 18442 curl/8.7.1
+2026-03-14T10:12:42Z 10.88.44.17 r.kapoor@halcyonmeridian.com PUT https://gist.githubusercontent.com/ 201 application/json 1251 curl/8.7.1
+2026-03-14T11:09:55Z 10.42.18.23 system CONNECT https://files.box.com/shared/static/4dn2aqz93k9m3b8a.7z 200 application/octet-stream 94513012 curl/8.4.0
+2026-03-14T11:14:44Z 10.42.18.23 system POST https://upload.box.com/api/2.0/files/content 201 application/json 821 python-requests/2.31
+2026-03-14T12:44:12Z 10.55.72.9 j.mercer@contractor.example GET https://raw.githubusercontent.com/xmrig/xmrig/master/README.md 200 text/plain 20891 python-requests/2.29

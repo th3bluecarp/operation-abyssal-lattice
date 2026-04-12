@@ -1,0 +1,3 @@
+git status
+npm ci
+gh auth status

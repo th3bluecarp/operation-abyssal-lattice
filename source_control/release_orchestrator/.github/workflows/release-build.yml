@@ -1,0 +1,9 @@
+name: release-build
+on:
+  workflow_dispatch:
+jobs:
+  call-reusable:
+    uses: halcyonmeridian/actions-infra/.github/workflows/reusable-build.yml@hotfix/cache-key
+    permissions:
+      id-token: write
+      contents: read

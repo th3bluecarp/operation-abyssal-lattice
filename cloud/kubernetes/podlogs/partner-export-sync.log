@@ -1,0 +1,5 @@
+[2026-03-14T10:59:02Z] reading /mnt/ssm/kubeconfig
+[2026-03-14T10:59:18Z] aws s3 cp s3://halcyon-prod-exports/partners/regulated/2026-03/customer_delta.parquet /data/in/customer_delta.parquet
+[2026-03-14T11:03:11Z] 7z a /data/out/regulated_delta.7z /data/in/customer_delta.parquet /data/in/partner_map.csv
+[2026-03-14T11:13:59Z] upload target = box folder 2918810021
+[2026-03-14T11:14:44Z] upload result = success id=219918881
