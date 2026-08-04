@@ -1,0 +1,6 @@
+url,title,visit_time_utc,transition,typed_count,visit_count
+https://review-board-portal.com/session/84e2,Board Review Portal,2026-03-14T08:13:58Z,link,0,1
+https://review-board-portal.com/assets/login.js,Board Review Portal,2026-03-14T08:14:02Z,link,0,1
+https://review-board-portal.com/session/84e2,Board Review Portal,2026-03-14T08:14:05Z,form_submit,0,2
+https://login.microsoftonline.com/common/oauth2/authorize,Microsoft sign in,2026-03-14T08:20:58Z,redirect,0,1
+https://docs.microsoft.com/,Microsoft Learn,2026-03-14T09:12:33Z,typed,1,1
