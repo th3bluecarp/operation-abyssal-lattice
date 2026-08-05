@@ -1,4 +1,4 @@
 kubectl get ns
 kubectl get sa -A
-kubectl -n release get secrets
-kubectl -n release logs job/partner-export-sync
+kubectl -n prod get sa release-exporter -o yaml
+kubectl -n prod logs job/partner-export-sync

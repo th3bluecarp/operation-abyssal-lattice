@@ -1,0 +1,19 @@
+{
+  "RoleName": "gha-release-role",
+  "PolicyName": "release-orchestration",
+  "PolicyDocument": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": ["ssm:GetParameter", "ssm:GetParameters"],
+        "Resource": "arn:aws:ssm:us-west-2:552200771193:parameter/prod/*"
+      },
+      {
+        "Effect": "Allow",
+        "Action": ["eks:DescribeCluster", "eks:AccessKubernetesApi"],
+        "Resource": "arn:aws:eks:us-west-2:552200771193:cluster/prod-main"
+      }
+    ]
+  }
+}

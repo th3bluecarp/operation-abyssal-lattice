@@ -1,2 +1,4 @@
-root      2311 97.3  0.3 928112 33120 ?        Sl   12:40   7:11 /tmp/xmrig
-jupyter   1990  1.4  2.1 1902812 188120 ?      Ssl  12:01   0:25 /usr/bin/python3 /usr/local/bin/jupyter-lab --ip=0.0.0.0 --NotebookApp.token=''
+Snapshot: 2026-03-13 12:40:06 -0700
+PID  USER      %CPU %MEM START    ELAPSED  TIME     COMMAND
+884  j.mercer   1.4  2.1 12:01    39:06   00:00:25 /usr/bin/python3 /usr/local/bin/jupyter-lab --ip=0.0.0.0 --NotebookApp.token=''
+2311 root       97.3  0.3 12:40:01 00:05   00:00:04 /tmp/xmrig --donate-level=0 --url=stratum+tcp://pool-research.example:3333

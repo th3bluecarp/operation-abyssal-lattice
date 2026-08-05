@@ -1,0 +1,3 @@
+{"eventTime":"2026-03-13T14:58:00Z","eventSource":"s3.amazonaws.com","eventName":"ListBucket","sourceIPAddress":"10.3.8.12","userIdentity":{"arn":"arn:aws:sts::552200771193:assumed-role/secops-readonly/inventory"},"requestParameters":{"bucketName":"secops-evidence"}}
+{"eventTime":"2026-03-13T15:22:17Z","eventSource":"ec2.amazonaws.com","eventName":"DescribeInstances","sourceIPAddress":"10.3.8.12","userIdentity":{"arn":"arn:aws:sts::552200771193:assumed-role/secops-readonly/inventory"}}
+{"eventTime":"2026-03-13T16:31:42Z","eventSource":"kms.amazonaws.com","eventName":"DescribeKey","sourceIPAddress":"10.3.8.12","userIdentity":{"arn":"arn:aws:sts::552200771193:assumed-role/secops-readonly/inventory"}}

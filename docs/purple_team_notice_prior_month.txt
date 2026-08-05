@@ -1,5 +1,0 @@
-Purple-team exercise artifacts from the previous month may still appear in low-volume telemetry.
-Known domains:
-- k8s-purpletest.lab
-- auth-journey-check.net
-These are not malicious by themselves. Validate date, host, and context before treating as part of an incident.

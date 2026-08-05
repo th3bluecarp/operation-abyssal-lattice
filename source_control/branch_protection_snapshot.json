@@ -1,0 +1,10 @@
+{
+  "repository": "halcyonmeridian/actions-infra",
+  "captured_at": "2026-03-13T18:04:22Z",
+  "branch": "main",
+  "required_pull_request_reviews": 2,
+  "require_code_owner_reviews": true,
+  "required_status_checks": ["unit", "workflow-lint"],
+  "enforce_admins": true,
+  "matching_rules_for_hotfix_cache_key": []
+}

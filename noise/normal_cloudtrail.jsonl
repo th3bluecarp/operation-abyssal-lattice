@@ -1,3 +1,0 @@
-{"eventTime":"2026-03-14T07:58:00Z","eventSource":"s3.amazonaws.com","eventName":"ListBucket","sourceIPAddress":"10.3.8.12","userIdentity":{"arn":"arn:aws:iam::552200771193:user/secops-bot"},"requestParameters":{"bucketName":"secops-evidence"}}
-{"eventTime":"2026-03-14T08:22:17Z","eventSource":"ec2.amazonaws.com","eventName":"DescribeInstances","sourceIPAddress":"10.3.8.12","userIdentity":{"arn":"arn:aws:iam::552200771193:user/secops-bot"}}
-{"eventTime":"2026-03-14T09:31:42Z","eventSource":"kms.amazonaws.com","eventName":"DescribeKey","sourceIPAddress":"10.3.8.12","userIdentity":{"arn":"arn:aws:iam::552200771193:user/secops-bot"}}

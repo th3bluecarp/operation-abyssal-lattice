@@ -1,3 +1,3 @@
 time,host,severity,indicator,detail
-2026-03-14T10:06:12Z,MAC-DEV-17,high,Scripted shell from npm postinstall,curl pipe bash to cdn-build-linker.com
-2026-03-14T12:40:01Z,RSCH-JUP-03,medium,Coinminer behavior,XMRig-like process executing from /tmp
+2026-03-13T17:06:12Z,MAC-DEV-17,high,Scripted shell from npm postinstall,curl pipe bash to cdn-build-linker.com
+2026-03-13T19:40:01Z,RSCH-JUP-03,medium,Coinminer behavior,XMRig-like process executing from /tmp

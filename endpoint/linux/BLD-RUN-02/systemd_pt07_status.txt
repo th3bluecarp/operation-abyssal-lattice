@@ -1,0 +1,11 @@
+Captured: 2026-03-13 12:45:18 -0700
+
+○ pt07-beacon.service - PT-07 detection validation beacon
+     Loaded: loaded (/etc/systemd/system/pt07-beacon.service; static)
+     Active: inactive (dead) since Fri 2026-03-13 12:41:05 PDT; 4min 13s ago
+TriggeredBy: ● pt07-beacon.path
+    Process: 18772 ExecStart=/opt/secops/pt07-beacon.sh --config /var/lib/secops/replay/pending/pt07.retry (code=exited, status=0/SUCCESS)
+   Main PID: 18772 (code=exited, status=0/SUCCESS)
+
+Mar 13 12:41:03 BLD-RUN-02 pt07-beacon.sh[18772]: resolving k8s-purpletest.lab
+Mar 13 12:41:05 BLD-RUN-02 pt07-beacon.sh[18772]: completed replay id=PT-07 source_mtime=2026-02-12T10:13:44-08:00

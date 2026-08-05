@@ -1,5 +1,5 @@
-03/14/2026-08:14:03.887421 [**] [1:2035811:4] ET PHISHING Possible Credential Harvesting Landing Page [**] {TCP} 10.24.18.41:51244 -> 198.51.100.24:443
-03/14/2026-10:06:11.221993 [**] [1:2403478:2] ET TROJAN Suspicious Shell Script Retrieval [**] {TCP} 10.88.44.17:51522 -> 203.0.113.71:443
-03/14/2026-11:14:44.908712 [**] [1:2024219:7] ET POLICY Box Upload Large Archive [**] {TCP} 10.42.18.23:49831 -> 74.112.186.55:443
-03/14/2026-12:40:01.672031 [**] [1:2024631:3] ET COINMINER Stratum Protocol Detected [**] {TCP} 10.55.72.9:52018 -> 192.0.2.77:3333
-03/14/2026-12:41:05.110329 [**] [1:9999001:1] LOCAL Purple Team Test Beacon Domain [**] {UDP} 10.55.72.9:53321 -> 198.18.0.22:53
+03/13/2026-15:14:03.887421 [**] [1:2035811:4] ET PHISHING Possible Credential Harvesting Landing Page [**] {TCP} 10.24.18.41:51244 -> 198.51.100.24:443
+03/13/2026-17:06:11.221993 [**] [1:2403478:2] ET TROJAN Suspicious Shell Script Retrieval [**] {TCP} 10.88.44.17:51522 -> 203.0.113.71:443
+03/13/2026-17:33:59.908712 [**] [1:2024219:7] ET POLICY Box Upload Large Archive [**] {TCP} 10.42.18.23:49831 -> 74.112.186.55:443
+03/13/2026-19:40:01.672031 [**] [1:2024631:3] ET COINMINER Stratum Protocol Detected [**] {TCP} 10.55.72.9:52018 -> 192.0.2.77:3333
+03/13/2026-19:41:05.110329 [**] [1:9999001:1] LOCAL Rare Cluster Beacon Domain [**] {UDP} 10.8.4.19:53321 -> 10.3.0.53:53

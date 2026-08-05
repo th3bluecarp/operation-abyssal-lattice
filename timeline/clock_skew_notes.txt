@@ -1,6 +1,8 @@
-Known time formats:
-- Windows browser and macOS unified logs include -0700 local offset
-- Most cloud and SaaS logs are UTC
-- Zeek absolute timestamps are not normalized in this dataset
-- RSCH-JUP-03 local host time may drift by ~92 seconds
-- Some Box and proxy sequencing may reflect audit lag or service semantics
+Time-source collection notes, captured 2026-03-13T18:30:00Z:
+
+- Windows event fields named `UtcTime`: UTC; browser history: stored offset included.
+- Apple unified log: local offset included in each record.
+- SaaS, GitHub, Kubernetes, and CloudTrail exports: UTC.
+- Zeek `ts`: Unix epoch seconds from sensor `west-edge-02`; NTP offset +0.018 s.
+- RSCH-JUP-03 syslog: America/Los_Angeles; chronyd offset +0.091 s at collection.
+- Box enterprise events: vendor publication lag observed between 0 and 55 seconds in control samples.

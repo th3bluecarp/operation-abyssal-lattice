@@ -1,0 +1,4 @@
+timestamp,user,operation,source,destination,bytes,result,ticket
+2026-03-13T16:40:20Z,HALCYON\m.sato,FileCreate,C:\Temp\board_packets.7z,-,28411902,success,FIN-1842
+2026-03-13T16:43:08Z,HALCYON\m.sato,FileWrite,C:\Temp\board_packets.7z,\\fs-internal-02\board-prep\2026-03\board_packets.7z,28411902,success,FIN-1842
+2026-03-13T16:43:09Z,HALCYON\m.sato,FileClose,-,\\fs-internal-02\board-prep\2026-03\board_packets.7z,28411902,success,FIN-1842

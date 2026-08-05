@@ -1,0 +1,4 @@
+createdDateTime,displayName,appId,publisherName,verifiedPublisher,signInAudience,replyUrl,createdBy
+2024-06-11T18:42:04Z,Box Enterprise,7c19c212-b7d1-4e64-b73a-5f5a84c32a71,Box Inc.,Box Inc.,AzureADMyOrg,https://app.box.com/sso/callback,cloudapps@halcyonmeridian.com
+2025-01-08T20:11:33Z,Zoom Calendar Integration,18c3b441-22b2-42c4-a13a-801d2d18a321,Zoom Video Communications,Zoom Video Communications,AzureADMyOrg,https://zoom.us/oauth/callback,cloudapps@halcyonmeridian.com
+2026-03-13T15:16:55Z,Docs Sync Service,9db848aa-1d71-42f8-a832-633a41a1e7d2,-,-,AzureADMyOrg,https://docssync-app.net/oauth/callback,e.park@halcyonmeridian.com

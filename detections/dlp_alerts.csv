@@ -1,3 +1,3 @@
 time,rule,severity,user,asset,detail
-2026-03-14T11:14:44Z,Archive upload to sanctioned file sharing,medium,svc-exporter,regulated_delta.7z,Upload to Box allowed but anomalous for release namespace
-2026-03-14T08:44:15Z,Bulk document sync by delegated app,high,e.park@halcyonmeridian.com,term_sheet_draft.docx,OAuth app Docs Sync Service
+2026-03-13T17:34:44Z,Archive upload to sanctioned file sharing,medium,svc-exporter,regulated_delta.7z,Upload to Box allowed but anomalous for prod export workload
+2026-03-13T15:44:15Z,Bulk document sync by delegated app,high,e.park@halcyonmeridian.com,term_sheet_draft.docx,OAuth app Docs Sync Service

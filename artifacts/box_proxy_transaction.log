@@ -1,4 +1,4 @@
-2026-03-14T11:13:59.001Z req=bx-7f20 src=10.42.18.23 user=svc-exporter method=POST path=/api/2.0/files/content status=201 bytes_out=94513012 object=regulated_delta.7z
-2026-03-14T11:15:10.442Z req=bx-7f25 src=10.42.18.23 user=svc-exporter method=POST path=/2.0/shared_items status=201 object=regulated_delta.7z access=open
-2026-03-14T11:16:02.778Z req=bx-7f31 src=45.83.64.19 user=anonymous method=GET path=/shared/static/4dn2aqz93k9m3b8a.7z status=200 bytes_out=94513092 user_agent="curl/8.6.0"
-2026-03-14T11:16:03.019Z req=bx-7f32 src=45.83.64.19 user=anonymous method=GET path=/shared/static/4dn2aqz93k9m3b8a.7z status=206 bytes_out=1048576 range="bytes=0-1048575"
+2026-03-13T17:34:44.001Z req=bx-7f20 src=10.42.18.23 user=svc-exporter method=POST path=/api/2.0/files/content status=201 bytes_in=94513012 bytes_out=821 object=regulated_delta.7z
+2026-03-13T17:35:10.442Z req=bx-7f25 src=10.42.18.23 user=svc-exporter method=POST path=/2.0/shared_items status=201 bytes_in=94 bytes_out=612 object=regulated_delta.7z access=open
+2026-03-13T17:36:02.778Z req=bx-7f31 src=45.83.64.19 user=anonymous method=GET path=/shared/static/4dn2aqz93k9m3b8a.7z status=200 bytes_out=94513092 user_agent="curl/8.6.0"
+2026-03-13T17:36:03.019Z req=bx-7f32 src=45.83.64.19 user=anonymous method=GET path=/shared/static/4dn2aqz93k9m3b8a.7z status=206 bytes_out=1048576 range="bytes=0-1048575"

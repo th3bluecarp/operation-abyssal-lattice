@@ -1,6 +1,5 @@
 TimeGenerated,UserPrincipalName,AppDisplayName,IPAddress,ResultType,ConditionalAccessStatus,ClientAppUsed,OperationName,AdditionalDetails
-2026-03-14T08:20:12Z,e.park@halcyonmeridian.com,Microsoft Office 365 Portal,45.83.64.19,0,success,Browser,UserLoggedIn,"MFA satisfied by federated claim"
-2026-03-14T08:21:01Z,e.park@halcyonmeridian.com,Microsoft Graph,45.83.64.19,0,success,Mobile Apps and Desktop clients,Consent to application,"Docs Sync Service granted Files.Read.All Mail.Read offline_access"
-2026-03-14T08:26:44Z,a.velasquez@halcyonmeridian.com,Microsoft Office 365 Portal,45.83.64.19,500121,failure,Browser,UserLoginFailed,"MFA denied"
-2026-03-14T08:33:51Z,e.park@halcyonmeridian.com,SharePoint Online,45.83.64.19,0,success,Browser,FileAccessed,"/CorpDev/Board/Meridian/meridian_board_pack_v18.pptx"
-2026-03-14T09:11:19Z,l.chen@halcyonmeridian.com,Office 365 Exchange Online,10.3.8.12,0,success,Browser,UserLoggedIn,"Normal SOC console access"
+2026-03-13T15:20:12Z,e.park@halcyonmeridian.com,Microsoft Office 365 Portal,45.83.64.19,0,success,Browser,UserLoggedIn,"MFA satisfied by federated claim"
+2026-03-13T15:21:01Z,e.park@halcyonmeridian.com,Microsoft Graph,45.83.64.19,0,success,Mobile Apps and Desktop clients,Consent to application,"Docs Sync Service granted Files.Read.All Mail.Read offline_access"
+2026-03-13T15:26:44Z,a.velasquez@halcyonmeridian.com,Microsoft Office 365 Portal,45.83.64.19,500121,failure,Browser,UserLoginFailed,"MFA denied"
+2026-03-13T16:11:19Z,l.chen@halcyonmeridian.com,Office 365 Exchange Online,198.51.100.10,0,success,Browser,UserLoggedIn,"Compliant device; office egress"

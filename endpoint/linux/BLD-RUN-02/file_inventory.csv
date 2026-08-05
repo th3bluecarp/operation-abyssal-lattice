@@ -1,0 +1,4 @@
+path,owner,mode,size,mtime_local,sha256
+/opt/secops/pt07-beacon.sh,root:secops,0750,1842,2026-02-12 09:42:18 -0800,5efb2b22f5319e780d28ea3f986ab9093d53f00d80ca3a9334b524f2ec742f6d
+/etc/systemd/system/pt07-beacon.service,root:root,0644,311,2026-02-12 09:43:02 -0800,ec0e6866143d1e110882417cacd4c052584e3d7c8518aef27e68bb0234c88568
+/var/lib/secops/replay/pending/pt07.retry,secops:secops,0640,97,2026-02-12 10:13:44 -0800,3ae45014fa5e1631b56b85da8f1e6f469e09430d4f27d09ef72fe03adced0a5b

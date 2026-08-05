@@ -1,0 +1,6 @@
+2026-03-13T14:58:14.902Z host=FIN-WS31 user=m.sato process=OUTLOOK.EXE action=sync mailbox=finance status=success
+2026-03-13T15:02:33.118Z aws_account=552200771193 principal=arn:aws:sts::552200771193:assumed-role/secops-readonly/inventory action=DescribeInstances source=10.3.8.12 result=success request_id=4e0d6a70
+2026-03-13T15:07:46.552Z gitlab actor=build-bot repo=finance-archive action=clone ref=main source=10.8.4.19 result=success
+2026-03-13T16:40:18.221Z host=FIN-WS22 user=m.sato process=7z.exe action=create_archive path=C:\Temp\board_packets.7z ticket=FIN-1842
+2026-03-13T17:04:07.441Z okta actor=secops-bot event=user.authentication.sso source=198.51.100.10 outcome=SUCCESS
+2026-03-13T19:41:05.110Z sensor=suricata rule=LOCAL_Rare_Cluster_Beacon host=BLD-RUN-02 destination=198.18.0.22 action=alert
