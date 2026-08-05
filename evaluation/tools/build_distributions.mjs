@@ -26,12 +26,12 @@ fs.mkdirSync(dist, { recursive: true });
 const temporary = fs.mkdtempSync(path.join(os.tmpdir(), "abyssal-distribution-"));
 
 try {
-  const contextName = "operation-abyssal-lattice-context";
+  const contextName = "HM-IR-2026-0313";
   const contextDir = path.join(temporary, contextName);
   fs.mkdirSync(contextDir);
   for (const relative of contextRoots) fs.cpSync(path.join(root, relative), path.join(contextDir, relative), { recursive: true, preserveTimestamps: true });
 
-  const contextArchive = path.join(dist, `${contextName}.zip`);
+  const contextArchive = path.join(dist, "operation-abyssal-lattice-context.zip");
   run("zip", ["-q", "-r", "-X", contextArchive, contextName], { cwd: temporary });
 
   const evaluationName = "operation-abyssal-lattice-evaluation";
@@ -39,6 +39,8 @@ try {
   fs.mkdirSync(evaluationArchiveDir);
   fs.copyFileSync(path.join(root, "GOLDEN_ANSWER_KEY.md"), path.join(evaluationArchiveDir, "GOLDEN_ANSWER_KEY.md"));
   fs.copyFileSync(path.join(root, "EXECUTIVE_REPORT_RUBRIC.md"), path.join(evaluationArchiveDir, "EXECUTIVE_REPORT_RUBRIC.md"));
+  fs.copyFileSync(path.join(root, "AGENTIC_GRADER_INFO.md"), path.join(evaluationArchiveDir, "AGENTIC_GRADER_INFO.md"));
+  fs.copyFileSync(path.join(root, "REFERENCE_EXPLANATION.md"), path.join(evaluationArchiveDir, "REFERENCE_EXPLANATION.md"));
   fs.copyFileSync(path.join(evaluationDir, "controller_objectives.md"), path.join(evaluationArchiveDir, "controller_objectives.md"));
 
   const evaluationArchive = path.join(dist, `${evaluationName}.zip`);
@@ -50,12 +52,12 @@ try {
   if (contextListing.filter((entry) => !entry.endsWith("/")).length !== 71) throw new Error(`context archive contains ${contextListing.filter((entry) => !entry.endsWith("/")).length} files; expected 71`);
 
   const evaluationListing = run("unzip", ["-Z1", evaluationArchive]);
-  for (const required of ["GOLDEN_ANSWER_KEY.md", "EXECUTIVE_REPORT_RUBRIC.md", "controller_objectives.md"]) if (!evaluationListing.includes(required)) throw new Error(`evaluation archive missing ${required}`);
+  for (const required of ["GOLDEN_ANSWER_KEY.md", "EXECUTIVE_REPORT_RUBRIC.md", "AGENTIC_GRADER_INFO.md", "REFERENCE_EXPLANATION.md", "controller_objectives.md"]) if (!evaluationListing.includes(required)) throw new Error(`evaluation archive missing ${required}`);
 
   const checksums = [contextArchive, evaluationArchive].map((file) => `${sha256(file)}  ${path.basename(file)}`).join("\n") + "\n";
   fs.writeFileSync(path.join(dist, "SHA256SUMS.txt"), checksums);
   console.log(`built ${path.relative(root, contextArchive)} (${contextListing.filter((entry) => !entry.endsWith("/")).length} context files)`);
-  console.log(`built ${path.relative(root, evaluationArchive)} (3 evaluator files)`);
+  console.log(`built ${path.relative(root, evaluationArchive)} (5 evaluator files)`);
   console.log(checksums.trim());
 } finally {
   fs.rmSync(temporary, { recursive: true, force: true });

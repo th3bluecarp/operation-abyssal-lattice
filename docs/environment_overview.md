@@ -1,6 +1,7 @@
 # CMDB and Identity Directory Extract
 
-Export generated 2026-03-13T14:00:00Z. Display names are omitted from this collection.
+Export captured 2026-03-13T14:00:00Z. Display names are omitted from this collection.
+The people and host sections are the case-custodian subset requested at collection time; weekly telemetry also contains uncustodied enterprise assets.
 
 ## People
 - e.park — executive assistant to CFO
@@ -35,3 +36,11 @@ Export generated 2026-03-13T14:00:00Z. Display names are omitted from this colle
 - 10.42.18.0/24 — prod-main EKS nodes and pods
 - 10.55.72.0/24 — Research Computing
 - 10.3.8.0/24 — Security tooling
+- 10.8.4.0/24 — CI build runners
+- 10.8.12.0/24 — Operations workstations and services
+- 10.31.9.0/24 — Human Resources workstations
+- 10.42.7.0/24 — Sales workstations
+
+## Egress addresses
+- 198.51.100.10 — employee office internet egress (tokenized in this export)
+- 198.51.100.62 — prod-main workload NAT egress (tokenized in this export)

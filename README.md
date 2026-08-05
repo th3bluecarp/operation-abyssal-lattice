@@ -14,8 +14,8 @@ node evaluation/tools/build_distributions.mjs
 
 The command validates the dataset and creates:
 
-- `dist/operation-abyssal-lattice-context.zip` — agent-visible forensic evidence only
-- `dist/operation-abyssal-lattice-evaluation.zip` — controller objectives, golden answer key, and scoring rubric
+- `dist/operation-abyssal-lattice-context.zip` — agent-visible forensic evidence under the in-universe root `HM-IR-2026-0313/`
+- `dist/operation-abyssal-lattice-evaluation.zip` — controller objectives, golden answer key, scoring rubric, grader instructions, and reference explanation
 
 Use `ANALYST_PROMPT.md` as the task prompt, the context ZIP as the task context, and the evaluation ZIP for the evaluation-files field. Never give the evaluation ZIP to the task agent.
 
@@ -24,7 +24,7 @@ Use `ANALYST_PROMPT.md` as the task prompt, the context ZIP as the task context,
 - Evidence roots are listed in `evaluation/context_roots.json`.
 - `evaluation/` contains hidden generation, validation, grading, and packaging material.
 - `telemetry/` contains five seven-day exports totaling more than 35,000 records.
-- `GOLDEN_ANSWER_KEY.md` and `EXECUTIVE_REPORT_RUBRIC.md` are evaluator-only even though they remain convenient at repository root.
+- `GOLDEN_ANSWER_KEY.md`, `EXECUTIVE_REPORT_RUBRIC.md`, `AGENTIC_GRADER_INFO.md`, and `REFERENCE_EXPLANATION.md` are evaluator-only even though they remain convenient at repository root.
 
 ## Validation
 

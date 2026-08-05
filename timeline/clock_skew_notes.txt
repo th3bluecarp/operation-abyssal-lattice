@@ -1,8 +1,8 @@
-Time-source collection notes, captured 2026-03-13T18:30:00Z:
+Time-source collection notes, captured 2026-03-13T20:08:00Z:
 
 - Windows event fields named `UtcTime`: UTC; browser history: stored offset included.
 - Apple unified log: local offset included in each record.
 - SaaS, GitHub, Kubernetes, and CloudTrail exports: UTC.
-- Zeek `ts`: Unix epoch seconds from sensor `west-edge-02`; NTP offset +0.018 s.
-- RSCH-JUP-03 syslog: America/Los_Angeles; chronyd offset +0.091 s at collection.
-- Box enterprise events: vendor publication lag observed between 0 and 55 seconds in control samples.
+- Zeek `ts`: Unix epoch seconds from sensor `west-edge-02`; NTP health stayed inside the sensor's 100 ms collection tolerance. No correction was applied.
+- RSCH-JUP-03 syslog: America/Los_Angeles. Chronyd stayed inside the host collection tolerance. No correction was applied.
+- Box enterprise CSV timestamps are rounded to whole seconds. The retained transaction log preserves request timing to milliseconds; upload records use completion time, not request-start time.

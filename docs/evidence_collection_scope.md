@@ -1,7 +1,7 @@
 # Evidence Collection Scope
 
 Collection ID: HM-IR-2026-0313
-Collection opened: 2026-03-13T18:27:00Z
+Collection opened: 2026-03-13T20:05:00Z
 Primary review window: 2026-03-09T00:00:00Z through 2026-03-16T00:00:00Z
 
 Sources acquired:
@@ -25,3 +25,4 @@ Collection notes:
 - Large weekly exports are included alongside smaller case pivots.
 - Network capture retention had expired before collection; no packet payload archive was available.
 - Some vendor exports use request-start timestamps while others use completion or audit-publication timestamps.
+- Known employee residential and office egress addresses were tokenized into documentation ranges during legal export; unknown third-party addresses were retained.
